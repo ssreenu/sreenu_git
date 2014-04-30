@@ -1,0 +1,240 @@
+
+    1  whoami
+    2  pwd
+    3  ls -a
+    4  firefox &
+    5  df -h
+    6  fdisk -l
+    7  cd
+    8  alias c=clear
+    9  c
+   10  ls -a
+   11  vi .bash_profile 
+   12  vi .bashrc 
+   13  vi .bash_logout 
+   14  cat /etc/passwd
+   15  domainname 
+   16  cat /etc/hosts
+   17  if
+   18  /etc/init.d/iptables status
+   19  man serviceconf
+   20  ip
+   21  setup
+   22  cat /etc/sudo
+   23  cat /etc/sudoers
+   24  cd /etc/sysconfig/network-scripts/
+   25  ll
+   26  cat ifcfg-eth0 
+   27  ifup eth0
+   28  cd
+   29  int-ips
+   30  int-ip
+   31  ll /sbin
+   32  ifconfig
+   33  man ifconfig
+   34  ifconfig -a
+   35  ip -s
+   36  ip -a
+   37  df -h
+   38  swapon -s
+   39  free -m
+   40  free -g
+   41  dmidecode -t 16
+   42  bc
+   43  system-config-network
+   44  c
+   45  vi .bashrc 
+   46  clear
+   47  df -h
+   48  c
+   49  cd
+   50  c
+   51  df -h
+   52  c
+   53  echo $SHELL
+   54  cat /etc/shells 
+   55  hostname
+   56  cd /etc/sysconfig/network-scripts/
+   57  ll
+   58  cat /etc/sysconfig/network
+   59  c
+   60  cd
+   61  cd ..
+   62  cd 
+   63  pwd
+   64  cd /
+   65  l
+   66  ll
+   67  cd -
+   68  c
+   69  pwd
+   70  ll
+   71  rpm -qa
+   72  rpm -qa sysstat
+   73  arch
+   74  lsb_release -a
+   75  getconf LONG_BIT
+   76  cd /etc/yum.repos.d/
+   77  ll
+   78  cat CentOS-Base.repo 
+   79  ll
+   80  cat CentOS-Media.repo 
+   81  ll
+   82  cd
+   83  df -h
+   84  lvs
+   85  pvs
+   86  /sbin/ifconfig 
+   87  c
+   88  mii-tool eth0
+   89  /sbin/mii-tool eth0
+   90  /sbin/ifconfig 
+   91  /sbin/ethtool eth0
+   92  /sbin/dmidecode -t 1
+   93  ls -l /sbin/
+   94  ls -l /sbin/ |grep d*
+   95  top
+   96  uname -a
+   97  man git
+   98  ls /sbin
+   99  ls /bin
+  100  passwd -S ssreenu
+  101  passwd -s ssreenu
+  102  vi /etc/hosts
+  103  cd /etc
+  104  ll
+  105  date
+  106  ls -pm
+  107  pwd
+  108  poweroff 
+  109  cd
+  110  system-config-network
+  111  su - grohit
+  112  su  grohit
+  113  ssh grohit@10.101.1.198
+  114  cd
+  115  where system-config-network
+  116  whereis system-config-network
+  117  rpm -ql /usr/bin/system-config-network
+  118  which system-config-network
+  119  rpm -ql /usr/bin/system-config-network
+  120  ls /bin
+  121  ls /sbin
+  122  lsb_release -a
+  123  rpm -ql /usr/bin/system-config-network
+  124  cd
+  125  c
+  126  firefox &
+  127  poweroff 
+  128  poweroff
+  129  cd
+  130  firefox &
+  131  date
+  132  poweroff 
+  133  cd
+  134  firefox &
+  135  poweroff
+  136  su -
+  137  whoami
+  138  sudo su -
+  139  hostname
+  140  uname -a
+  141  yum install putty* -y
+  142  yum install putty
+  143  ifconfig 
+  144  ifconfig
+  145  /sbin/ifconfig
+  146  sudo su -
+  147  cd
+  148  firefox &
+  149  ssh -i Desktop/ssreenu.pem ec2-user@10.101.1.162
+  150  chmod 400 Desktop/ssreenu.pem 
+  151  ssh -i Desktop/ssreenu.pem ec2-user@10.101.1.162
+  152  sudo su -
+  153  poweroff 
+  154  sudo su -
+  155  whoami
+  156  /etc/init.d/sshd status
+  157  sudo su -
+  158  whoami
+  159  /sbin/ifconfig 
+  160  telnet 172.29.8.29 
+  161  exit
+  162  cd
+  163  alias c=clear
+  164  c
+  165  firefox &
+  166  ssh -i Desktop/ssreenu.pem ec2@10.101.1.162
+  167  ifconfig
+  168  /sbin/ifconfig 
+  169  ssh -i Desktop/ssreenu.pem ec2-user@10.101.1.162
+  170  ssh -i Desktop/ssreenu.pem ec2-user@10.101.1.162
+  171  /sbin/ifconfig
+  172  date
+  173  clear
+  174  echo $SHELL
+  175  echo $EDITOR
+  176  crontab -e
+  177  echo $PATH
+  178  echo $HOSTNAME
+  179  poweroff
+  180  poweroff 
+  181  cd
+  182  clear
+  183  firefox &
+  184  man telnet
+  185  date 2014
+  186  cal 2014
+  187  ls
+  188  git clone git@github.com:ssreenu/sreenu_git.git
+  189  git
+  190  sudo yum install git
+  191  git
+  192  ls
+  193  git clone git@github.com:ssreenu/sreenu_git.git
+  194  ls .ssh
+  195  ssh-keygen
+  196  ls .ssh
+  197  cat id_rsa.pub
+  198  cat .ssh/id_rsa.pub
+  199  git clone git@github.com:ssreenu/sreenu_git.git
+  200  ls
+  201  cd key
+  202  cd ./key
+  203  cd /key
+  204  ls key
+  205  ls ./key
+  206  ls -p
+  207  pwd
+  208  ls -ld key/
+  209  mkdir fff
+  210  cd fff
+  211  git status
+  212  cd ..
+  213  cd sreenu_git/
+  214  git status
+  215  ls
+  216  ls -lah
+  217  ls
+  218  vi practice.txt
+  219  git status
+  220  git add .
+  221  git st
+  222  git status
+  223  git commit -m "hi sreenu in practice.txt"
+  224  git status
+  225  ls
+  226  git remote -a
+  227  git remote -v
+  228  git branch
+  229  git push origin master
+  230  ls
+  231  git pull origin master
+  232  ls
+  233  git help commit
+  234  git info
+  235  git
+  236  git help rebase
+  237  history
+  238  vi commands.txt
+  239  history >>commands.txt
